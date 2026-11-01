@@ -71,11 +71,11 @@ namespace кт5
                 bool canceled = bookingService.CancelBooking(seatNumber);
                 if (canceled)
                 {
-                    Console.WriteLine($"\n✅ Бронирование места {seatNumber} отменено.");
+                    Console.WriteLine($"\n Бронирование места {seatNumber} отменено.");
                 }
                 else
                 {
-                    Console.WriteLine($"\n❌ Не удалось отменить бронирование: место не было забронировано.");
+                    Console.WriteLine($"\n Не удалось отменить бронирование: место не было забронировано.");
                 }
 
                 Console.WriteLine("\nСхема зала после отмены:");
