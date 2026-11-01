@@ -54,11 +54,11 @@ namespace кт5
 
             if (success)
             {
-                Console.WriteLine($"\n✅ Бронирование успешно: {customerName} забронировал место {seatNumber} на фильм \"{selectedMovie.Title}\".");
+                Console.WriteLine($"\nБронирование успешно: {customerName} забронировал место {seatNumber} на фильм \"{selectedMovie.Title}\".");
             }
             else
             {
-                Console.WriteLine($"\n❌ Не удалось забронировать место {seatNumber}: оно уже занято.");
+                Console.WriteLine($"\nНе удалось забронировать место {seatNumber}: оно уже занято.");
             }
 
             Console.WriteLine("\nИтоговая схема зала:");
